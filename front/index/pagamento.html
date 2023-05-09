@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+   
+   <style>
+         *{
+            margin: 0;
+            padding: 0;
+        }
+        .menugrudado{
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+        }
+
+        .menugrudado > section{
+            background-color: black;
+            height: 9vh;
+            width: 100vw;
+            display: inline-flex;
+        }
+        .logo > a{
+            text-decoration: none;
+            color: white;
+            margin-left: 15vw;
+            letter-spacing: clamp(5vw,1em + 5vw,5vw);
+            font-size: clamp(6vh,1em + 6vh,6vh);
+            
+        }
+        .persin{
+            display: inline-flex;
+            height: 100%;
+        }
+        .menu{
+        cursor: pointer;
+        }
+        .menu div{
+        width: 3.5vw;
+        height: 1vh;
+        background: #fff;
+        margin: 8px;
+        }
+        
+
+
+    </style>
+<body>
+    <header class="menugrudado">
+        <section>
+            <div class = "menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <div class="logo">
+                <a href="/index.html">PROJJETUS</a>
+            </div>
+            <a href="index.html"> <h3 style="color: #fff;"><br> Config</h3></a>
+                <a href=""><img src="/img/assets/pessoa.png" alt="" class="persin"></a>
+        </section>
+    </header>
+    <div style="text-align: center;">
+        <br><br><br> <h2 style="margin: auto;"> Forma de pagamento</h2>
+        <br><br> <p>Nome Completo</p>
+                    <input type="email" name="email" id="email">
+                    <br><br> <p>E-MAIL</p>
+                    <input type="email" name="email" id="email">
+                    <br> <br><p>CPF</p>
+                    <input type="email" name="email" id="email">
+                    <br><br> <label for="login"><p>Data de nascimento </p></label>
+                    <input type="date" name="" id="">
+                    <br> <br><label for="selecione"><p>Bandeira do Cartão </p></label>
+                    <select name="selecione" id="selecione">
+                        <option value="test1"> <p>Selecione...</p></option>
+                        <option value="test2"><p>Mastercard</p></option>
+                        <option value="test3"><p>Visa</p></option>
+                        <option value="test4"><p>Elo</p></option>
+                    </select>
+                    <br><br> <p>Número de telefone</p>
+                    <input type="email" name="email" id="email">
+                    <br><br> <p>Endereço</p>
+                    <input type="email" name="email" id="email">
+                    <br><br> <a href="home.html"><input type="button" value="ENVIAR"></a>
+
+
+
+    </div>
+
+
+
+</body>
+</html>

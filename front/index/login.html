@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+
+}
+
+table{
+    border-collapse: collapse;
+    margin-top: clamp(5vh,1em + 5vh,5vh);
+    margin-left: clamp(25vw,1em + 25vw,25vw);
+
+}
+
+
+.tablecentral{
+    background-color: black;
+    height: 9vh;
+    width: 50vw;
+    border-radius: 1.5vw 1.5vw 0px 0px;
+
+    
+    box-shadow:-1px 5px 3px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.tablecentral > p{
+    color: rgb(255, 255, 255);
+    letter-spacing: 4vw;
+    margin-left: 1.4vw;
+    margin-top: 1.3vh;
+    font-size: clamp(2.8vw,1em + 1.9vw,2.8vw);
+}
+
+.tableesquerda{
+   
+    background-image: linear-gradient(to bottom, #343434,#C6C6C6);
+    height: 55vh;
+    width: 25vw;
+    border-radius: 0px 0px 0px 1.5vw;
+    
+    
+}
+
+.tableesquerda > img{
+    margin: 10%;
+    height: 55vh;
+    width: 20vw;
+}
+
+.tabledireita{
+    background-color: #E4E4E4;
+    height: 55vh;
+    width: 25vw;
+    border-radius: 0px 0px 1.5vw 0px;
+}
+
+.tabledireita > a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    text-align: right;
+    margin-top: 2vh;
+    margin-left: 13vw;
+    font-size: clamp(1.3vw,1em + 1.3vw,1.3vw);
+}
+
+.tabledireita > .naotemconta{
+    margin-top: 4vh;
+    color: rgb(0, 0, 0);
+    margin-left: 2vw;
+}
+
+.tabledireita a > strong {
+    background-color: black;
+    color: white;
+    border-radius: 3vh;
+    padding: clamp(0.4vw,1em + 0.4vw,0.4vw);
+    margin-left: 0vw;
+}
+.tabledireita > input{
+    margin-left: 18vw;
+    margin-top: 3vh;
+    height: 6vh;
+    width: 6vw;
+    font-size: clamp(1vw,1em + 1vw,1vw);
+    background-color: black;
+    color: white;
+}
+
+.tabledireita > div{
+margin-top: 20vh;
+}
+
+.tabledireita > div > p{
+    margin-top: 4vh;
+    margin-left: 3vw;  
+    font-size: clamp(1.1vw,1em + 1.1vw,1.1vw);
+}
+
+.tabledireita > div > input{
+    height: 4vh;
+    width: 19vw;
+    margin-left: 3vw;
+    border-radius: 30vh;   
+    font-size: clamp(1.5vw,1em + 1.5vw,1.5vw);
+}
+    </style>
+</head>
+<body>
+    <table>
+            <caption class="tablecentral"> <p>PROJETTUS</p> </caption>
+        <tr>
+            <td class="tableesquerda">
+                <img src="/img/login/boasvindas.png" alt="">
+            </td>
+            <td class="tabledireita">
+                <div>
+                    <p>E-MAIL</p>
+                    <input type="email" name="email" id="email">
+                    <p>SENHA</p>
+                    <input type="senha" name="senha" id="senha">
+                </div>
+                <a href="#">Esqueceu Sua Senha</a>
+                <a href="cadastro.html" class="naotemconta">não tem uma conta? <strong>CADASTRE-SE</strong></a>
+                <a href="home.html"><input type="button" value="ENVIAR"></a>
+            </td>
+        </tr>
+
+    </table>
+</body>
+</html>

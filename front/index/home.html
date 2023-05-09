@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+   
+   <style>
+         *{
+            margin: 0;
+            padding: 0;
+        }
+        .menugrudado{
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+        }
+
+        .menugrudado > section{
+            background-color: black;
+            height: 9vh;
+            width: 100vw;
+            display: inline-flex;
+        }
+        .logo > a{
+            text-decoration: none;
+            color: white;
+            margin-left: 15vw;
+            letter-spacing: clamp(5vw,1em + 5vw,5vw);
+            font-size: clamp(6vh,1em + 6vh,6vh);
+            
+        }
+        .persin{
+            display: inline-flex;
+            height: 100%;
+        }
+        .menu{
+        cursor: pointer;
+        }
+        .menu div{
+        width: 3.5vw;
+        height: 1vh;
+        background: #fff;
+        margin: 8px;
+        }
+        
+
+
+    </style>
+<body>
+    <header class="menugrudado">
+        <section>
+            <div class = "menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <div class="logo">
+                <a href="/index.html">PROJJETUS</a>
+            </div>
+            <a href="index.html"> <h3 style="color: #fff;"><br> Config</h3></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="login.html"> <h3 style="color: #fff;"><br> Sair</h3></a>
+                <a href=""><img src="/img/assets/pessoa.png" alt="" class="persin"></a>
+        </section>
+    </header>
+<H1>Welcome to <br> best freelancer <br>Site</H1>
+<a href="registrarpedido.html"><br><br> <h2>Faça seu pedido</h2></a>
+    <div style="text-align: right">
+    <br><br>
+    <i>Pesquisar</i>
+    <a href="#">
+      <input type="email" name="email" id="email">&nbsp;&nbsp;&nbsp;
+      </a>
+      <br><br>
+      <h3>MAIS PESQUISADOS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3><br><br>
+      <br>
+      <ul>
+          <li><a href="dg.html"> DESIGNER GRÁFICO</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><br><br>
+  
+          <li><a href="prog.html">PROGRAMAÇÃO</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><br><br>
+  
+           <li><a href="fot.html">FOTÓGRAFOS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><br><br>
+          
+           <li><a href="md.html"> MARKETING DIGITAL</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><br><br>
+      </ul>  
+    </div>
+  
+    <div style="text-align: left">
+    <a href="cadastro.html">  <strong>CADASTRE-SE</strong></a>
+   </div> 
+
+</body>
+</html>

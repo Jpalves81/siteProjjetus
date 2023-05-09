@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+        }
+        .menugrudado{
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+        }
+
+        .menugrudado > section{
+            background-color: black;
+            height: 9vh;
+            width: 100vw;
+            display: inline-flex;
+        }
+        .logo > a{
+            text-decoration: none;
+            color: white;
+            margin-left: 15vw;
+            letter-spacing: clamp(5vw,1em + 5vw,5vw);
+            font-size: clamp(6vh,1em + 6vh,6vh);
+            
+        }
+        .persin{
+            display: inline-flex;
+            height: 100%;
+        }
+        .menu{
+        cursor: pointer;
+        }
+        .menu div{
+        width: 3.5vw;
+        height: 1vh;
+        background: #fff;
+        margin: 8px;
+        }
+        
+
+
+    </style>
+<body>
+    <header class="menugrudado">
+        <section>
+            <div class = "menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <div class="logo">
+                <a href="/index.html">PROJJETUS</a>
+            </div>
+            <a href="home.html"> <h3 style="color: #fff;"><br>Menu</h3></a>
+                <a href=""><img src="/img/assets/pessoa.png" alt="" class="persin"></a>
+        </section>
+    </header>
+    <br><br>
+    <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Configurações</h4>
+    <br>
+    <ul>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="conta.html"> Conta</a></li><br><br>
+
+         <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="notificações.html">Notificações</a> </li><br><br>
+
+         <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="seg.html">Segurança</a> </li><br><br>
+        
+         <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mdp.html"> Métodos de pagamento</a></li><br><br>
+
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="sup.html">Suporte</a> </li><br><br>
+    </ul>   
+    <div>
+       
+      
+    </div>
+</body>
+</html>

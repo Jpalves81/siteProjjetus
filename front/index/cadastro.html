@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .menugrudado{
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+        }
+
+        .menugrudado > section{
+            background-color: black;
+            height: 9vh;
+            width: 100vw;
+            display: inline-flex;
+        }
+        .logo > a{
+            text-decoration: none;
+            color: white;
+            margin-left: 15vw;
+            letter-spacing: clamp(5vw,1em + 5vw,5vw);
+            font-size: clamp(6vh,1em + 6vh,6vh);
+            
+        }
+        .persin{
+            display: inline-flex;
+            height: 100%;
+        }
+        .menu{
+        cursor: pointer;
+        }
+        .menu div{
+        width: 3.5vw;
+        height: 1vh;
+        background: #fff;
+        margin: 8px;
+        }
+        
+
+        main{
+            margin: 25vw;
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <header class="menugrudado">
+        <section>
+            <div class = "menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <div class="logo">
+                <a href="/index.html">PROJJETUS</a>
+            </div>
+                <a href=""><img src="/img/assets/notificacao.png" alt="" class="persin"></a>
+                <a href=""><img src="/img/assets/pessoa.png" alt="" class="persin"></a>
+        </section>
+    </header>
+    <main>
+        <h1>CADASTRE-SE</h1>
+        <form action="">
+
+            <div>
+                <label for="login">Login</label>
+                <input type="login" name="login" id="login">
+            </div>
+            <div>
+                <label for="email">E-MAIL</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="senha">Senha</label>
+                <input type="senha" name="senha" id="senha">
+            </div>
+            <div>
+                <label for="confsenha">Confirmar a Senha</label>
+                <input type="confsenha" name="confsenha" id="confsenha">
+            </div>
+            <div>
+                <a href="home.html"> <input type="button" value="Enviar"><a href="home.html"></a>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

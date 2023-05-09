@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+           margin: 0;
+           padding: 0;
+       }
+       .menugrudado{
+           position: sticky;
+           top: 0px;
+           z-index: 1;
+       }
+
+       .menugrudado > section{
+           background-color: black;
+           height: 9vh;
+           width: 100vw;
+           display: inline-flex;
+       }
+       .logo > a{
+           text-decoration: none;
+           color: white;
+           margin-left: 15vw;
+           letter-spacing: clamp(5vw,1em + 5vw,5vw);
+           font-size: clamp(6vh,1em + 6vh,6vh);
+           
+       }
+       .persin{
+           display: inline-flex;
+           height: 100%;
+       }
+       .menu{
+       cursor: pointer;
+       }
+       .menu div{
+       width: 3.5vw;
+       height: 1vh;
+       background: #fff;
+       margin: 8px;
+       }
+       
+
+
+   </style>
+</head>
+<body>
+    <header class="menugrudado">
+        <section>
+            <div class = "menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <div class="logo">
+                <a href="/index.html">PROJJETUS</a>
+            </div>
+            <a href="index.html"> <h3 style="color: #fff;"><br> Config</h3></a>
+                <a href=""><img src="/img/assets/pessoa.png" alt="" class="persin"></a>
+        </section>
+    </header>
+    <h1>Peça por um Serviço</h1>
+    <p>de algumas informações do seu projeto para que os profissionais venham ate você</p>
+
+    <form action="">
+        <div>
+            <label for="login"><h2>Dê um titulo ao briefing </h2> <p>Forneça informações resumidas e fáceis de entender para nos ajudar a categorizar com precisão.</p></label>
+            <input type="text" name="text1" id="text1">
+        </div>
+        <div>
+            <label for="selecione"><h2>Escolha uma categoria </h2> <p>clique na seta lateral e selecione</p></label>
+            <select name="selecione" id="selecione">
+                <option value="test1"></option>
+                <option value="test2"></option>
+                <option value="test3"></option>
+                <option value="test4"></option>
+            </select>
+        </div>
+        <div>
+            <label for="login"><h2>O que você quer que seja feito? </h2> <p>Isso ajudara a trazer o melhor profissional ate você. Seja especifico.</p></label>
+            <input type="text" name="eupreciso" id="eupreciso">
+        </div>
+        <div>
+            <label for="login"><h2>Pretendo gastar... </h2> <p>qualquer valor sera considerado em Reais ex:300 será igual a 300reais</p></label>
+            <input type="number" name="" id="">
+        </div>
+        <div>
+            <label for="login"><h2>Preciso em... </h2></label>
+            <input type="date" name="" id="">
+        </div>
+        <div style="text-align: center" >
+           <br><br><br><br> <a href="pagamento.html"><input type="button" value="ENVIAR"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        </div>
+        
+    </form>
+
+
+</body>
+</html>
